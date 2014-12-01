@@ -147,7 +147,7 @@ function toggleActive() {
                 "path": "icons/icon16_disabled.png"
             };
             message = {
-                "title": "click to enable jargonizer"
+                "title": "click to enable Ad Jargon Filter"
             };
             status = "disabled";
         } else if (status === "disabled") {
@@ -155,7 +155,7 @@ function toggleActive() {
                 "path": "icons/icon16.png.jpg"
             };
             message = {
-                "title": "click to disable jargonizer"
+                "title": "click to disable Ad Jargon Filter"
             };
             status = "enabled";
         }

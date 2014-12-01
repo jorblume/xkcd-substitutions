@@ -1,5 +1,5 @@
 {
-  "name": "WONGDOODY: Jargonizer",
+  "name": "WONGDOODY: Ad Jargon Filter",
   "version": "0.0.1",
   "manifest_version": 2,
   "description": "This extension replaces phrases with social media jargon",
@@ -14,7 +14,7 @@
     "default_icon": {
       "19": "icons/icon19.png"
     },
-    "default_title": "click to disable jargonizer"
+    "default_title": "click to disable Ad Jargon Filter"
   },
   "background": {
     "scripts": [

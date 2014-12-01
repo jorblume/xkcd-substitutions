@@ -1,7 +1,7 @@
 {
   "name": "WONGDOODY: Ad Jargon Filter",
   "version": "0.0.2",
-  "manifest_version": 3,
+  "manifest_version": 2,
   "description": "This extension replaces words and phrases with social media jargon",
   "homepage_url": "http://www.wongdoody.com",
   "icons": {

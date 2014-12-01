@@ -144,7 +144,7 @@ function toggleActive() {
         }
         if (status === "enabled") {
             icon = {
-                "path": "icons/icon16.png"
+                "path": "icons/icon16_disabled.png"
             };
             message = {
                 "title": "click to enable Ad Jargon Filter"
@@ -152,7 +152,7 @@ function toggleActive() {
             status = "disabled";
         } else if (status === "disabled") {
             icon = {
-                "path": "icons/icon16_disabled.png"
+                "path": "icons/icon16.png"
             };
             message = {
                 "title": "click to disable Ad Jargon Filter"

@@ -144,7 +144,7 @@ function toggleActive() {
         }
         if (status === "enabled") {
             icon = {
-                "path": "icons/disabled.jpg"
+                "path": "icons/icon16_disabled.png"
             };
             message = {
                 "title": "click to enable jargonizer"
@@ -152,7 +152,7 @@ function toggleActive() {
             status = "disabled";
         } else if (status === "disabled") {
             icon = {
-                "path": "icons/enabled.jpg"
+                "path": "icons/icon16.png.jpg"
             };
             message = {
                 "title": "click to disable jargonizer"

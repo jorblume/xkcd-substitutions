@@ -1,8 +1,8 @@
 {
   "name": "Ad Jargon Filter",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "manifest_version": 2,
-  "description": "This extension replaces words and phrases with social media jargon",
+  "description": "Never read pretentious bull#$@% again!",
   "homepage_url": "http://www.wongdoody.com",
   "icons": {
     "19": "icons/enabled.png",

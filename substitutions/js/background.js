@@ -2,106 +2,224 @@
 
 var replacement_array = [
 
- ['Omni-channel',  'Hella-channel'],
+["Asset" , "Stuff"],
+["asset" , "stuff"],
 
- ['CRM',  'Customer spying'],
+["Assets" , "Stuff"],
+["assets" , "stuff"],
 
- ['The Internet of Things',  'Robot Apocalypse'], 
+["Big Data" , "Math"],
+["Big data" , "Math"],
+["big data" , "math"],
 
- ['Internet of Things',  'Robot Apocalypse'], 
+["Brand Advocate" , "Fanboy"],
+["Brand advocate" , "Fanboy"],
+["brand advocate" , "fanboy"],
 
- ['Crowdsourced', 'Lazysourced'],
+["Brand Community" , "Fanboys"],
+["Brand community" , "Fanboys"],
+["brand community" , "fanboys"],
 
- ['crowdsourced', 'lazysourced'],
+["Call-To-Action" , "Propaganda"],
+["Call-to-action" , "Propaganda"],
+["call-to-action" , "propaganda"], 
+["CTA" , "propaganda"], 
 
- ['Crowdsourcing', 'Lazysourcing'],
+["Challenge the Status Quo" , "Fight the Man"], 
+["Challenge the status quo" , "Fight the man"], 
+["challenge the status quo" , "fight the man"], 
 
- ['crowdsourcing', 'lazysourcing'],
+["Consumer Engagement" , "Consumer Jibber Jabber"], 
+["Consumer engagement" , "Consumer jibber jabber"], 
+["consumer engagement" , "consumer jibber jabber"], 
 
-['Media Agnostic', 'Media Don’t Care'], 
+["Content" , "Stuff"],
+["content" , "stuff"],
 
-['Paradigm shift', 'flip mode'],
+["CRM" , "Customer spying"],
+["crm" , "customer spying"],
 
- ['Leverage', 'whore-out'],
+["Crowd-sourced" , "Lazy-sourced"],
+["crowd-sourced" , "lazy-sourced"],
 
-['Big data' , 'Math'],
+["Crowdsourced" , "Lazysourced"],
+["crowdsourced" , "lazysourced"],
 
-['Challenge the status quo', 'fight the man'], 
+["Crowd-sourcing" , "Lazy-sourcing"],
+["crowd-sourcing" , "lazy-sourcing"],
 
-['Disruptive', 'next-level'],
- 
-['Game-changing', 'super dope'],
+["Crowdsourcing" , "Lazysourcing"],
+["crowdsourcing" , "lazysourcing"],
 
-['Game-changer', 'super dope'],
- 
-['Guru' , 'smart motherfucker'],
- 
-['Brand advocate' , 'fanboy'],
+["Curate" , "Steal"],
+["curate" , "steal"],
 
-['Brand community',  'fanboys'],
+["Curated" , "Stolen"], 
+["curated" , "stolen"], 
 
-['Mission' , 'goal'],
+["Curator" , "Stealer"],
+["curator" , "stealer"],
 
-['Asset' , 'stuff'],
+["Disruptive" , "Next-level"],
+["disruptive" , "next-level"],
 
-['Impression' ,  'Peep'], 
- 
-['Impressions' ,  'Peeps'], 
- 
-['Thought-leader', 'Smart motherfucker'],
+["Game-changing" , "Super-dope"],
+["game-changing" , "super-dope"],
 
-['Offer' ,  'bribe'],
- 
-['Real-time' ,  'lickity-split'],
- 
-['Influencer' ,  'popular kid'],
- 
-['WOM' , 'Reco'],
+["Game-changer" , "Super-dope"],
+["game-changer" , "super-dope"],
 
-['Real-time bidding' , 'ad-buying robots'],
+["Gurus" , "Smart motherfuckers"],
+["gurus" , "smart motherfuckers"],
 
-['Programmatic buying' , 'ad-buying robots'],
+["Guru" , "Smart motherfucker"],
+["guru" , "smart motherfucker"],
 
-['Rich Media',  'Moving banners'],
+["Impression" , "Peep"], 
+["impression" , "peep"],
 
-['Content',  'stuff'],
+["Impressions" , "Peeps"], 
+["impressions" , "peeps"], 
 
-['Native Advertising' , 'Camouflaged Advertising'],
+["Influence" , "Brainwash"],
+["influence" , "brainwash"],
 
-['Sponsored Content' , 'Camouflaged Advertising'],
+["Influencers" , "Popular kids"],
+["influencers" , "popular kids"],
 
-['influence' , 'brainwash'],
+["Influencer" , "Popular kid"],
+["influencer" , "popular kid"],
 
-["KPIs" , 'GOOOOOAAAAAALLLLLLS! '],
+["KPI's" , "GOOOOOAAAAAALLLLLLS! "], 
+["kpi's" , "goooooaaaaaalllllls! "], 
 
-['curated' , 'stole'],
+["KPI" , "GOOOOOAAAAAALLLLLL! "], 
+["kpi" , "goooooaaaaaallllll! "], 
 
-['curator' , 'stealer'],
+["KPI's" , "GOOOOOAAAAAALLLLLLs! "], 
+["kpi's" , "goooooaaaaaalllllls! "], 
 
-['curate' , 'steal'],
+["Leverage" , "Whore-out"], 
+["leverage" , "whore-out"], 
 
-['user-generated content' , "peoples stuff"],
+["Leveraging" , "Whoring-out"], 
+["leveraging" , "whoring-out"], 
 
-['call to action' , 'propaganda'],
+["Leverages" , "Whores-out"], 
+["leverages" , "whores-out"], 
 
-['respsonive design' , 'looks good on your phone'],
+["Media Agnostic" , "Media Dont Care"], 
+["Media agnostic" , "Media dont care"],
+["media agnostic" , "media dont care"], 
 
-['Consumer Engagement', 'Consumer Jibber Jabber']
+["Mission" , "Goal"],
+["mission" , "goal"],
+
+["Native Advertising" , "Camouflaged Advertising"], 
+["Native advertising" , "Camouflaged advertising"], 
+["native advertising" , "camouflaged advertising"], 
+
+["Native Advertisement" , "Camouflaged Advertisement"],
+["Native advertisement" , "Camouflaged advertisement"],
+["native advertisement" , "camouflaged advertisement"],
+
+["Native Advertisements" , "Camouflaged Advertisements"],
+["Native advertisements" , "Camouflaged advertisements"],
+["native advertisements" , "camouflaged advertisements"],
+
+["Offer" , "Bribe"],
+["offer" , "bribe"],
+
+["Offers" , "Bribes"],
+["offers" , "bribes"],
+
+["Omni-Channel" , "Hella-Channel"],
+["Omni-channel" , "Hella-channel"],
+["omni-channel" , "hella-channel"],
+
+["Paradigm Shift" , "Flip Mode"],
+["Paradigm shift" , "Flip mode"],
+["paradigm shift" , "flip mode"],
+
+["Programmatic Buying" , "Robotic Buying"], 
+["Programmatic buying" , "Robotic buying"],
+["programmatic buying" , "robotsic buying"], 
+
+["Programmatic-Buying" , "Robotic-Buying"],
+["Programmatic-buying" , "Robotic-buying"],
+["Programmatic-buying" , "robotsic-buying"], 
+
+["Real-Time" , "Lickity-Split"],
+["Real-time" , "Lickity-split"],
+["real-time" , "lickity-split"],
+
+["Realtime" , "Lickity-Split"],
+["realtime" , "lickity-split"],
+
+["Reputation Management" , "Honor Defending"],
+["Reputation management" , "Honor defending"],
+["reputation management" , "honor defending"],
+
+["Responsive Design" , "Looks-Good-On-Your-Phone Design"], 
+["Responsive design" , "Looks-good-on-your-phone design"], 
+["responsive design" , "looks-good-on-your-phone design"], 
+
+["Rich Media" , "Moving Banners"],
+["Rich media" , "Moving banners"],
+["rich media" , "moving banners"],
+
+["Sponsored Content" , "Camouflaged Advertisement"],
+["Sponsored content" , "Camouflaged advertisement"],
+["sponsored content" , "camouflaged advertisement"],
+
+["The Internet of Things" , "Robot Apocalypse"], 
+["The internet of things" , "Robot apocalypse"], 
+["the internet of things" , "robot apocalypse"], 
+
+["Thought-leader" , "Smart motherfucker"],
+["thought-leader" , "smart motherfucker"],
+
+["Thought-leaders" , "Smart motherfuckers"],
+["thought-leaders" , "smart motherfuckers"],
+
+["Thought Leader" , "Smart Motherfucker"],
+["Thought leader" , "Smart motherfucker"],
+["Thought leader" , "smart motherfucker"],
+
+["Thought Leaders" , "Smart Motherfuckers"],
+["Thought leaders" , "Smart motherfuckers"],
+["Thought leaders" , "smart motherfuckers"],
+
+["User-Generated content" , "Other People's Stuff"],
+["User-generated content" , "Other people's stuff"],
+["user-generated content" , "other people's stuff"],
+
+["WOM" , "Reco"],
+["wom" , "reco"],
+
+["Word of mouth" , "Reco"],
+["Word of Mouth" , "Reco"],
+["word of mouth" , "reco"],
+
+["Word-of-mouth" , "Reco"],
+["Word-of-Mouth" , "reco"],
+["word-of-mouth" , "reco"]
+
   
 ];
 
-debug = true;
+debug = false;
 
 function inject(tabId, info, tab){
 
- 	if(debug) console.log('injecting now');
+ 	if(debug) console.log("injecting now");
 
 	chrome.storage.sync.get(null, function(result) {
-		if(result['status'] === 'enabled' ){
+		if(result["status"] === "enabled" ){
 			chrome.tabs.executeScript(tabId, {
 
-				file: 'js/inject.js',
-				runAt: 'document_end'
+				file: "js/inject.js",
+				runAt: "document_end"
 
 			});
 		}
